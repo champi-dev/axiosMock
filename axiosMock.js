@@ -6,7 +6,7 @@ export default {
       if (this.status !== 200) reject(new Error())
 
       switch (route) {
-        case '/transactions':
+        case '/example-route':
           resolve({ data: ['a', 'b', 'c'] })
           break
         default:
